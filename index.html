@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Asked Questions</h2>
+      <p>These are our asked questions</p>
+      <div class="accordion">
+        <div>
+          <div class="question">
+            What is the difference between let, const, and var in JavaScript?
+          </div>
+          <p class="answer">
+            var is function-scoped and can be redeclared; it is hoisted. let is
+            block-scoped and cannot be redeclared in the same scope. const is
+            block-scoped and must be initialized; its value cannot be
+            reassigned.
+          </p>
+        </div>
+        <div>
+          <div class="question">
+            What is the purpose of a DNS (Domain Name System)?
+          </div>
+          <p class="answer">
+            DNS translates human-readable domain names (like example.com) into
+            IP addresses, allowing computers to locate servers on the internet.
+          </p>
+        </div>
+        <div>
+          <div class="question">
+            Explain the difference between == and === in JavaScript.
+          </div>
+          <p class="answer">
+            == compares values after type coercion. === compares both value and
+            type without coercion.
+          </p>
+        </div>
+        <div>
+          <div class="question">What is a REST API and why is it used?</div>
+          <p class="answer">
+            A REST API (Representational State Transfer) is an architecture for
+            building web services. It uses HTTP methods (GET, POST, PUT, DELETE)
+            to interact with resources. It's used because it is stateless,
+            scalable, and easy to integrate with web applications.
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
